@@ -96,12 +96,10 @@ function Dashboard() {
     }
 
     const editTask = (task) => {
-
         setFormData({
             title: task.title,
             description: task.description
         })
-
         setEditId(task._id)
     }
 

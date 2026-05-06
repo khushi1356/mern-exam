@@ -39,29 +39,22 @@ function Login() {
             <h1>Login</h1>
 
             <form onSubmit={handleSubmit}>
-
                 <input
                     type="email"
                     name="email"
                     placeholder="Email"
                     onChange={handleChange}
                 />
-
                 <br /><br />
-
                 <input
                     type="password"
                     name="password"
                     placeholder="Password"
                     onChange={handleChange}
                 />
-
                 <br /><br />
-
                 <button>Login</button>
-
             </form>
-
         </div>
     )
 }

@@ -19,7 +19,6 @@ const register = async(req, res) => {
     })
     res.json(newUser)
 }
-
 const login = async(req, res) => {
     const {email, password} = req.body
     const user = await User.findOne({email})
